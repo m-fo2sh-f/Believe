@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/CSS/global.css">
+    <link rel="stylesheet" href="/CSS/cart-page.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <title>Cart</title>
+</head>
+
+<body>
+    <header>
+        <!-------------------------- 1-navigation ------------------------->
+        <nav>
+            <!-------------------------- 1.1-nav1 ------------------------->
+            <div class="nav1">
+                <div class="container">
+                    <div class="rightside-nav1">
+                        <div class="rightsub-nav1">
+                            <p><ion-icon class="icon" name="call"></ion-icon>+20 100 343 0773</p>
+                            <p><ion-icon class="icon" name="mail"></ion-icon>mohamedabc336@gmail.com</p>
+                        </div>
+                        <div class="leftsub-nav1">
+                            <p>
+                                Free shipping on <span> <a href="#"> All orders over</a></span> $75!
+                                <ion-icon class="icon" id="nav1-icon-remove" name="close-circle"></ion-icon>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="leftside-nav1">
+                        <a href="#">Track order</a><span>.</span>
+                        <a href="#">Register</a><span>.</span>
+                        <a href="#">Login</a>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------  1.2-nav2 ------------------------->
+            <div class="nav2">
+                <div class="container">
+                    <ul class="leftside-nav2">
+                        <li><a href="#"><img src="/images/icons/logo.png" alt=""></a></li>
+                        <li><a class="hidden" href="#">HOME</a></li>
+                        <li><a class="hidden" href="#">BLOG</a></li>
+                        <li><a class="hidden" href="#">BLOG POST</a></li>
+                        <li><a class="hidden" href="#">CONTACT</a></li>
+                        <li><a class="hidden" href="#">BUY PRO VERSION</a></li>
+                    </ul>
+                    <ul class="rightside-nav2">
+                        <li><a href="#"><ion-icon name="search-outline"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="heart-outline"></ion-icon></a>
+                            <p>2</p>
+                        </li>
+                        <li><a href="cart.html"><ion-icon name="bag-outline"></ion-icon></a>
+                            <p>2</p>
+                        </li>
+                    </ul>
+                    <ion-icon id="menubtn-nav2" class="menuicon" name="menu"></ion-icon>
+                    <div class="menu">
+                        <div id="menucont-nav2" class="container">
+                            <ul>
+                                <li class="hover"><a href="#">HOME</a></li>
+                                <li class="hover"><a href="#">BLOG</a></li>
+                                <li class="hover"><a href="#">BLOG POST</a></li>
+                                <li class="hover"><a href="#">CONTACT</a></li>
+                                <li class="hover"><a href="#">BUY PRO VERSION</a></li>
+                                <br>
+                                <br>
+                                <li><a href="cart.html"><ion-icon class="icon" name="bag-outline"></ion-icon></a>
+                                    <p>2</p>
+                                </li>
+                                <li><a href="#"><ion-icon class="icon" name="heart-outline"></ion-icon></a>
+                                    <p>2</p>
+                                </li>
+                                <li class="searchbar"><input type="text" placeholder="Search Here"><ion-icon
+                                        class="icon" name="search-outline"></ion-icon></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="items-container">
+            <div id="cart-container">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <!-------------------------- 1-section ------------------------->
+            <section>
+                <p>Welcome to</p>
+                <img src="/images/icons/logo-ft-white.png" alt="">
+                <p>Believe isCommerce WordPress theme. It has <br>
+                    everything you need to start selling today! <span>Get this theme on ThemeForest!</span></p>
+                <ul>
+                    <li>
+                        <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+                </ul>
+            </section>
+            <!-------------------------- 2-section ------------------------->
+
+            <section>
+                <p>Quick Links</p>
+                <ul>
+                    <li>
+                        <a href="">HOME</a>
+                    </li>
+                    <li>
+                        <a href="">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a href="">DEALS</a>
+                    </li>
+                    <li>
+                        <a href="">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="">HELP</a>
+                    </li>
+                </ul>
+
+            </section>
+            <!-------------------------- 3-section ------------------------->
+
+            <section>
+                <ul>
+                    <li><a href="#">Tearms & condition</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Legal Desclaimer</a></li>
+                </ul>
+            </section>
+            <!-------------------------- 4-section ------------------------->
+
+            <section>
+                <p>My Account</p>
+                <ul>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Personal Information</a></li>
+                    <li><a href="">Addresses</a></li>
+                    <li><a href="">Orders</a></li>
+                    <li><a href="">Wishlist</a></li>
+                    <li><a href="">track order</a></li>
+                </ul>
+            </section>
+            <!-------------------------- 5-section ------------------------->
+
+            <section>
+                <p>Subscribe for OFFERS & UPDATES</p>
+                <p>Enter your email and we'll send you a coupon with 10% off your next order. Add any text here</p>
+                <input type="text" placeholder="Enter email">
+                <button>SUBSCRIBE NOW</button>
+            </section>
+            <!-------------------------- 6-section ------------------------->
+        </div>
+        <div class="copy-right">
+            <p>Copyright 2025. Designed and Developed by <a
+                    href="https://www.instagram.com/m_fo2sh_f?igsh=c3Z1Z2s4ZXljZHpr">m_fo2sh_f</a></p>
+        </div>
+    </footer>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="/js/cart.js"></script>
+
+</html>
