@@ -1730,7 +1730,7 @@ main .items-container .featured .items-cards .card1 .card {
 
 main .items-container .featured .items-cards .card1 .card .img {
   background-color: red;
-  background-image: url("images/items/p-1.jpg");
+  background-image: url("../images/items/p-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1826,7 +1826,7 @@ main .items-container .featured .items-cards .card2 .card {
 
 main .items-container .featured .items-cards .card2 .card .img {
   background-color: red;
-  background-image: url("images/items/p-2.jpg");
+  background-image: url("../images/items/p-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1922,7 +1922,7 @@ main .items-container .featured .items-cards .card3 .card {
 
 main .items-container .featured .items-cards .card3 .card .img {
   background-color: red;
-  background-image: url("images/items/p-3.jpg");
+  background-image: url("../images/items/p-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2018,7 +2018,7 @@ main .items-container .featured .items-cards .card4 .card {
 
 main .items-container .featured .items-cards .card4 .card .img {
   background-color: red;
-  background-image: url("images/items/p-4.jpg");
+  background-image: url("../images/items/p-4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2114,7 +2114,7 @@ main .items-container .featured .items-cards .card5 .card {
 
 main .items-container .featured .items-cards .card5 .card .img {
   background-color: red;
-  background-image: url("images/items/p-5.jpg");
+  background-image: url("../images/items/p-5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2210,7 +2210,7 @@ main .items-container .featured .items-cards .card6 .card {
 
 main .items-container .featured .items-cards .card6 .card .img {
   background-color: red;
-  background-image: url("images/items/p-6.jpg");
+  background-image: url("../images/items/p-6.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2306,7 +2306,7 @@ main .items-container .featured .items-cards .card7 .card {
 
 main .items-container .featured .items-cards .card7 .card .img {
   background-color: red;
-  background-image: url("images/items/p-7.jpg");
+  background-image: url("../images/items/p-7.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2406,7 +2406,7 @@ main .items-container .featured .items-cards .card8 .card {
 
 main .items-container .featured .items-cards .card8 .card .img {
   background-color: red;
-  background-image: url("images/items/p-8.jpg");
+  background-image: url("../images/items/p-8.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2892,5 +2892,3 @@ footer .copy-right a:hover {
     font-weight: 700;
   }
 }
-
-/*# sourceMappingURL=home.css.map */
