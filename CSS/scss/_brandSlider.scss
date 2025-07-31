@@ -1,0 +1,29 @@
+.brands-slider{
+    width: 75%;
+    margin:50px auto;
+    height: 200px;
+    text-align: center;
+    p{
+        padding-bottom: 5px ;
+        border-bottom: 2px solid var(--babyblue);
+        display: inline;
+    }
+    .brands_logo{
+        margin-top: 20px;
+        width: 100%;
+        white-space: nowrap;
+        position: relative;
+        height: 117px;
+        overflow: hidden;
+        .slider{
+            position: absolute;
+            top: 0;
+            transition: 1s;
+        }
+    }
+}
+@media(max-width:1440px){
+    .brands-slider{
+        width: 90% !important;
+    }
+}

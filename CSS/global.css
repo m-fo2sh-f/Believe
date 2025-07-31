@@ -1,0 +1,37 @@
+:root {
+    --white: #ffffff;
+    --purble: #464479;
+    --darkpurble: #2a2955;
+    --cleaerpurble: #4f4f81;
+    --babyblue: #66cef6;
+    --darkgray: #2b2a2f;
+    --lightgray: #828282;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a,
+button {
+    all: unset;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    white-space: nowrap;
+}

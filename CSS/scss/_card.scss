@@ -1,0 +1,92 @@
+@mixin card ($url){
+    .card{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        overflow: hidden;
+        width: 230px;
+        margin:0 20px 50px ;
+        border-radius: 10px;
+        .img{
+            background-color: red;
+            background-image: url(quote($url));
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 250px;
+            width: 230px;
+            position: relative;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            .icon{
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                padding: 11.5px 10px 10px 11px;
+                font-size: 2.5rem;
+                border-radius: 50%;
+                color: rgb(242, 176, 176);
+                cursor: pointer;
+                transform: scale(0);
+                transition: .3s;
+                
+            }
+            .icon:hover{
+                color: rgb(218, 0, 0);
+            }
+            p{
+                position: absolute;
+                bottom: 5px;
+                left:30px;
+                
+                background-color: rgb(218, 0, 0);
+                padding: 10px 25px;
+                font-size: 1.2rem;
+                color: rgb(228, 228, 228);
+                border-radius: 5px;
+                cursor: pointer;
+                transform: scale(0);
+                transform-origin: top center; 
+                transition: transform 0.3s ease;
+
+                .bag-icon{
+                    margin-right: 5px;
+                }
+                
+            }
+            p:hover{
+                background-color:rgb(174, 0, 0) ;
+            }
+        
+        }
+        .img:hover .icon,
+        .img:hover p{
+        transform: scale(1 );
+
+        }
+        .data{
+            padding: 15px 0;
+            height: 80px;
+            width: 230px;
+            text-align: center;
+            color: black;
+            line-height: 1.5rem;
+            a{
+            transition: .4s;
+            }
+            a:hover{
+            color: var(--babyblue);
+            }
+            p{
+            cursor: pointer;
+            font-size: 1.2rem;
+            color: var(--babyblue);
+            font-weight: 600;
+            del{
+                color: rgb(113, 113, 113);
+            }
+            
+            }
+        }
+    }
+}
