@@ -393,15 +393,15 @@
                             width: 100%;
 
                             .card1 {
-                                @include card("images/items/p-1.jpg")
+                                @include card("../images/items/p-1.jpg")
                             }
 
                             .card2 {
-                                @include card("images/items/p-9.jpg")
+                                @include card("../images/items/p-2.jpg")
                             }
 
                             .card3 {
-                                @include card("images/items/p-6.jpg")
+                                @include card("../images/items/p-6.jpg")
                             }
                         }
                     }
@@ -490,16 +490,13 @@
                     width: 100%;
 
                     .card1 {
-                        @include card("images/items/p-1.jpg")
+                        @include card("../images/items/p-1.jpg")
                     }
 
                     .card2 {
-                        @include card("images/items/p-9.jpg")
+                        @include card("../images/items/p-9.jpg")
                     }
 
-                    .card3 {
-                        @include card("images/items/p-6.jpg")
-                    }
                 }
                 
             }

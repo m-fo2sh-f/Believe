@@ -9,7 +9,7 @@
         border-radius: 10px;
         .img{
             background-color: red;
-            background-image: url(quote($url));
+            background-image: url(quote($url)) !important;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;

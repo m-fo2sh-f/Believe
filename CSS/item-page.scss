@@ -325,25 +325,25 @@ main{
                 }
             }
             .card1{
-                @include card ('images/items/p-1.jpg')
+                @include card ('../images/items/p-1.jpg')
             }
             .card2{
-                @include card ('images/items/p-2.jpg')
+                @include card ('../images/items/p-2.jpg')
             }
             .card3{
-                @include card ('images/items/p-3.jpg')
+                @include card ('../images/items/p-3.jpg')
             }
             .card4{
-                @include card ('images/items/p-4.jpg')
+                @include card ('../images/items/p-4.jpg')
             }
             .card5{
-                @include card ('images/items/p-5.jpg')
+                @include card ('../images/items/p-5.jpg')
             }
             .card6{
-                @include card ('images/items/p-6.jpg')
+                @include card ('../images/items/p-6.jpg')
             }
             .card7{
-                @include card ('images/items/p-7.jpg')
+                @include card ('../images/items/p-7.jpg')
             }
         }
         .container::-webkit-scrollbar{
