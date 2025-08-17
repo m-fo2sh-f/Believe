@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let match = bg.match(/url\(["']?(.*?)["']?\)/);
             let path = match ? match[1] : null;
             sessionStorage.setItem("imgPath", path);
-            window.location.href = "../pages/item-page.html";
+            window.location.href = "pages/item-page.html";
         });
     });
 });
